@@ -81,13 +81,6 @@ args = dict(
         }
     },
 
-    teacher_model={
-        'name': "ERFNet_Semantic_Original",
-        'kwargs': {
-            'num_classes': 3,  # 3 for bg/plant/disease
-        }
-    },
-
     lr=1e-3,
     n_epochs=800,  # every x epochs, report train & validation set
 
